@@ -53,8 +53,8 @@
   <div class="caja">
     <strong>En una frase:</strong> tus imágenes y tus PDF nunca salen de tu
     teléfono. Lo único que se recoge son datos de uso anónimos —qué pasos de la
-    app se usan— y lo que Google necesita para mostrar los anuncios que
-    mantienen la app gratuita.
+    app se usan y si la app falla— y lo que Google necesita para mostrar los
+    anuncios que mantienen la app gratuita.
   </div>
 
   <h2>Qué hace la app</h2>
@@ -98,6 +98,12 @@
       <td>Saber qué pasos de la app se usan. Sin tu contenido y sin datos que
           te identifiquen — ver <em>Estadísticas de uso</em>.</td>
     </tr>
+    <tr>
+      <td>Informes de fallos</td>
+      <td>Servidores de Google</td>
+      <td>Sólo si la app se cierra inesperadamente: dónde falló, modelo y
+          versión de Android — ver <em>Informes de fallos</em>.</td>
+    </tr>
   </table>
 
   <h2>Permisos que pide la app</h2>
@@ -129,6 +135,19 @@
     identificador aleatorio de la instalación, el modelo del dispositivo y el
     país deducido de tu IP. Ese identificador se reinicia si desinstalas la app
     o borras sus datos.
+  </p>
+
+  <h2>Informes de fallos</h2>
+  <p>
+    Si la app se cierra inesperadamente, <strong>Firebase Crashlytics</strong>
+    envía un informe técnico para poder arreglarlo. Contiene en qué punto del
+    código falló, el modelo de teléfono, la versión de Android y cuánta memoria
+    había libre.
+  </p>
+  <p class="suave">
+    No lleva tus imágenes, tus PDF ni nada que te identifique. Sin estos
+    informes, un fallo que sólo ocurra en ciertos teléfonos sería imposible de
+    detectar y de corregir.
   </p>
 
   <h2>Publicidad</h2>
